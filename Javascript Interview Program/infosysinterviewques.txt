@@ -1,0 +1,18 @@
+/****
+Infosys Interview 
+Theory Question
+1. Hoisting
+2. Difference between var, let, const
+3. What is React?
+4. Virtual Dom
+5.  Hooks
+6. Life Cycle methods
+7. Descibe any 5 hooks
+8. How to fetch the data?
+
+Scenario based Interview Questions
+1. Passed string as"CandidateId=10042&Name=Harish". Convert this string as object. If we write obj.name it should give Harish.
+2. On click of button show and hide the given line.
+3. Fetch the data from given api.
+
+**/

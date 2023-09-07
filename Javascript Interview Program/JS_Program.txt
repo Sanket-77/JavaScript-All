@@ -1,0 +1,161 @@
+1. Anagram check using js
+
+input: Mary, Army
+
+output: Anagram
+
+2. Append special character in string for every word
+
+input: My first javascript program
+Output: @My @first @javascript @program
+
+3. Write a recursive function that performs a binary search.
+
+4. When would you use the bind function?
+
+5. Write a program to convert the variable from c++ to Java and vice versa using javascript.
+
+Use case 1:
+
+Input: this_is_a_variable
+output: thisIsAVariable
+
+Use case 2:
+
+Input: thisIsAVariable
+Output: this_is_a_variable
+
+
+
+6. Function currying example
+
+add(1)(2)(3)(); //6
+add(1)(1)(1)(1)(1)(1)(); //6
+
+7. Input object with keys and change there value accordingly:
+
+input : 
+{
+      a: 1234,
+      b: "abc",
+      c: [1, 2, 3, 4]
+}
+
+output:
+{
+      a: 1235,
+      b: "abc AEE",
+      c: [2, 3, 4, 5]
+}
+
+
+8. CHeck similar word from array and remove it
+
+input: ['test1', 'suhas', 'test2', 'test3', 'suhas']
+
+
+9. Reverse the digit.
+
+input: 123456
+output: 654321
+
+10. Reverse every word from string 
+
+Input: Welcome to vision Input
+
+output: emocleW ot noisiv tupnI
+
+11. Reverse the string
+
+Input: Welcome to vision Input
+
+output: tupnI noisiv ot emocleW
+
+12. Sum of the digits using js
+
+Input: 123456
+output: 21
+
+13. What will be the output of the following code?
+a)
+var Employee = {
+    company: 'xyz'
+  }
+  var emp1 = Object.create(Employee);
+  delete emp1.company
+  console.log(emp1.company);
+  
+b) var output = (function(x) {
+    delete x;
+    return x;
+})(0);
+  
+
+c) var arr = [1,2,3,4,5,6,7,8,9,10];
+
+for(var i=0; i < 10; i++){
+    setTimeout(() => {
+        console.log(arr[i]);
+    }, 1000);
+}
+
+14. Passed string as"Id=10042&Name=Ganesh". Convert this string as object. If we write obj.name it should give Harish.
+output shoud be = object{Id: 10042, Name: Ganesh}
+
+15. Output:
+console.log(1 +  "2" + "2");  //122 // 122
+
+console.log(1 +  +"2" + "2"); //132 // 1 22 // 32
+// "2" consider as number. number pre-incerment which taken previous value 1 + "2" = 3 + "2" // 32
+
+console.log(1 +  -"2" + "2"); //2 // 02 //12
+
+console.log(+"1" +  "1" + "2"); //112 
+
+// + operator not refering any number value. There is no meaning to take value and js engine will start read value in string format
+
+console.log( "A" - "B" + "2"); // error // NaN2 
+// NaN meaning not a number. Mathematical operater will try to calculate character. So js engine has been identifyid the result is not a number. Engine assign value as NaN
+
+console.log( "A" - "B" + 2); // error // NaN
+
+console.log(false == '0')  // true
+console.log(false === '0') // false
+
+for (var i = 0; i < 5; i++) {
+  var btn = document.createElement('button');
+
+  btn.appendChild(document.createTextNode('Button ' + i));
+
+  btn.addEventListener('click', function(){ console.log(i); });
+
+  document.body.appendChild(btn);
+}
+
+
+16. Write a program to sort array of object by specific property custom method without using inbuild sort method.
+
+17. [2, 1, 5, 3, 7, 8, 4]; sort the array and add missing numbers.
+Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+18. [2, 1 , 5, 4, 3]; filter elements that are multiples of 2
+
+19. 
+var a = [1,2,3];
+var b = [1,2,3];
+var c = '1,2,3';
+
+console.log(a === c)
+console.log(b == c)
+console.log(a == b)
+
+20. How to check object is array or not?
+
+
+  
+
+
+
+
+
+
